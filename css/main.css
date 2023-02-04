@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+
+}
+
+.home {
+    background-image   : url(../images/shutterstock_277750193.jpg);
+    background-size    : cover;
+    background-position: center center;
+    height             : 100vh
+        /*view port height*/
+    ;
+}
+
+.home-content {
+
+    text-align         : center;
+    color              : #fff;
+    /* background-color: tomato; */
+    padding-top        : 80px;
+}
+
+.home-content p {
+    font-family: 'Dancing Script', cursive;
+    margin     : 10px 0px;
+    font-size  : 40px;
+
+}
+
+.home-content .btn {
+
+    border : none;
+    padding: 15px 25px;
+}
+
+.home-content .btn-tan {
+    background-color: tan;
+}
+
+.home-content .btn-white {
+    background-color: #fff;
+}
+
+.navbar {
+    background-color: rgba(0, 0, 0, 0.454);
+}
+
+.navbar img {
+    width: 10%;
+    float: left;
+
+}
+
+.navbar ul {
+    width              : 40%;
+    /* background-color: tomato; */
+    float              : right;
+    list-style         : none;
+}
+
+.navbar ul li {
+    display: inline-block;
+    margin : 30px;
+
+    /* background-color: tan; */
+
+}
+
+.navbar ul li a {
+    color          : #fff;
+    text-decoration: none;
+}
+
+.clr {
+    clear: both;
+}
+
+.location {
+    background-color: #f1f1f1;
+}
+
+.container {
+    width  : 80%;
+    margin : auto;
+    padding: 50px 0px;
+}
+
+.location-info {
+    /* background-color: thistle; */
+    width           : 40%;
+    float           : left;
+    padding: 20px;
+
+}
+.location-info p{
+    margin: 20px 0px;
+}
+
+.location-image {
+    /* background-color: tomato; */
+    width           : 50%;
+    float           : right;
+    text-align      : right;
+}
+
+.location-image img {
+    width: 90%;
+}
